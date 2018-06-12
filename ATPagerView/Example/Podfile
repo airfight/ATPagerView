@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ATPagerView_Example' do
+  pod 'ATPagerView', :path => '../'
+
+  target 'ATPagerView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

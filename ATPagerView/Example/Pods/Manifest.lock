@@ -1,0 +1,16 @@
+PODS:
+  - ATPagerView (0.1.0)
+
+DEPENDENCIES:
+  - ATPagerView (from `../`)
+
+EXTERNAL SOURCES:
+  ATPagerView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ATPagerView: 673409cc10998f1da2f794aebeee2cdb055729e4
+
+PODFILE CHECKSUM: d043699b47709f34683a5e13cc49f2fc71de7770
+
+COCOAPODS: 1.5.3

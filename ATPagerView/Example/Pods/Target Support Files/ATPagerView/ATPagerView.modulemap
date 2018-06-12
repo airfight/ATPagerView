@@ -1,0 +1,6 @@
+framework module ATPagerView {
+  umbrella header "ATPagerView-umbrella.h"
+
+  export *
+  module * { export * }
+}
