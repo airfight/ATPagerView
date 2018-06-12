@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		35ABE8393DD46C240F76B82F /* ATPagerView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ATPagerView.podspec; path = ../ATPagerView.podspec; sourceTree = "<group>"; };
+		35ABE8393DD46C240F76B82F /* ATPagerView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ATPagerView.podspec; path = ../ATPagerView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3DADAECDB9902DB792C187B6 /* Pods-ATPagerView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATPagerView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ATPagerView_Example/Pods-ATPagerView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		47BF05AAAD8539B11E67F9FD /* Pods-ATPagerView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATPagerView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ATPagerView_Tests/Pods-ATPagerView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		575FA0A0127445351B8D2F15 /* Pods_ATPagerView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ATPagerView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -42,11 +42,11 @@
 		607FACE51AFB9204008FA782 /* ATPagerView_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ATPagerView_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6D637592AD9147A5854E2FFD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		6D637592AD9147A5854E2FFD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		AB37B63757AE6FD4A40334C0 /* Pods_ATPagerView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ATPagerView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1F9501BF32B73D7B5F3369A /* Pods-ATPagerView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATPagerView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ATPagerView_Tests/Pods-ATPagerView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		CBA3760E40160E17B8B780E9 /* Pods-ATPagerView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATPagerView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ATPagerView_Example/Pods-ATPagerView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		FA0B149943FD3634EFEC912B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		FA0B149943FD3634EFEC912B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */

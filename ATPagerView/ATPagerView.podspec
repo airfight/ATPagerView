@@ -24,7 +24,7 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/airfight/ATPagerView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'airfight' => 'guangyang.zhu@cftcn.com' }
+  s.author           = { 'airfight' => 'giantforjade@163.com' }
   s.source           = { :git => 'https://github.com/airfight/ATPagerView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
