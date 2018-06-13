@@ -25,7 +25,7 @@ public struct ATPagerStyle {
     public var titleSelectColor = UIColor.green
     public var titleFont: CGFloat = 15
     public var titleViewHeight: CGFloat = 44
-    public var titleViewBgColor = UIColor.white
+    public var titleViewBgColor = UIColor.red
     public var titleMargin: CGFloat = 30
     
     
@@ -41,6 +41,10 @@ public struct ATPagerStyle {
     /// Super容器
     public var isContentScrollEnable = true
     public var contentViewBgColor = UIColor.white
+    
+    public init() {
+        
+    }
 
     
 }

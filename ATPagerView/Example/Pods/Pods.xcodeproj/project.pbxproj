@@ -7,19 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		19483DCF20D0C07D00BEC768 /* ATPagerContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19483DCE20D0C07D00BEC768 /* ATPagerContentView.swift */; };
-		19483DD120D0C35F00BEC768 /* ATCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19483DD020D0C35F00BEC768 /* ATCollectionViewFlowLayout.swift */; };
-		196CD30520CFEA37002BA51E /* ATTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196CD30320CFEA36002BA51E /* ATTitleView.swift */; };
-		196CD30620CFEA37002BA51E /* ATPagerStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196CD30420CFEA36002BA51E /* ATPagerStyle.swift */; };
-		1BD162786147FFDD9B34CC3118751E17 /* ATPagerView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 59EBBA2FBDF1132F1A6F30BE118047CA /* ATPagerView-dummy.m */; };
-		22F38657238239E7613E3BB81EBE9A09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		3C2E9738C923B84D6622660A701F9C9A /* ATPagerView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9405C9F7665CC98D1989A0EE2461325A /* ATPagerView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19483DD320D0CE4900BEC768 /* ATPagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19483DD220D0CE4900BEC768 /* ATPagerView.swift */; };
+		2478B6296A08FA839E59264ECC1B6737 /* ATTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CBBE584AB240C04020898910E34521 /* ATTitleView.swift */; };
 		3F127AB35EBF5A396CB4A93E658FD9AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		5A21A9AF3755E3045A1EC79BD0D1AE66 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		657FE7EDC11ED06EB56634FDD6E371C2 /* ATCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B16747EB23409BDEAC946F47DDD727 /* ATCollectionViewFlowLayout.swift */; };
 		7D0DB2EE75EFF0EE632D68226213ACCF /* Pods-ATPagerView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AE3B22DD57EBDFF51EAC1B8DC8CE978 /* Pods-ATPagerView_Tests-dummy.m */; };
+		8A5E4491D1BAB2E6113AAE2564B47B04 /* ATPagerView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B852682F7D20F637453E047615D5B357 /* ATPagerView-dummy.m */; };
 		9BEBFD39AD29463C7903FA6472EDC8A8 /* Pods-ATPagerView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B4DB9C82356A4BAFB2A7FA2863D0E03A /* Pods-ATPagerView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A08DC29C2ACA7D0D8BEA70BC77016DE6 /* Pods-ATPagerView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 93588479A2B479DAB3041822EF326A85 /* Pods-ATPagerView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B92D0A195408D04BE0343A21CE278D1D /* ATPagerContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9F592FCB21735F87616E9AA516F5BE /* ATPagerContentView.swift */; };
 		C6251204C5949C1B498D032DB41771F6 /* Pods-ATPagerView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D1847E64012CC9DC7C0FCE512FBEF4A /* Pods-ATPagerView_Example-dummy.m */; };
+		EA3842978F3D0C72CC7EB99D11AAE2F8 /* ATPagerStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02967C7A25331F3135DB83B1EBC9254 /* ATPagerStyle.swift */; };
+		F15A69EC126781515ED57951A7EA24E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		FDF1FC86E4BF372630D7AE13C2CBFC4B /* ATPagerView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B2F6E041C2BA5FE85DF23DD26F4F84C /* ATPagerView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,7 +28,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CCD1B172C39619842F3D3BC9F147D257;
+			remoteGlobalIDString = 4AF17FEDAC23DA6A49DEAC053171A96A;
 			remoteInfo = ATPagerView;
 		};
 		D8E9CCD3A7927A829760D7DFC4001276 /* PBXContainerItemProxy */ = {
@@ -41,43 +42,44 @@
 
 /* Begin PBXFileReference section */
 		000D0CBBE42B1DB75B136E9D278EF12A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B2F6E041C2BA5FE85DF23DD26F4F84C /* ATPagerView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ATPagerView-umbrella.h"; sourceTree = "<group>"; };
 		0E371C9D8D98C82D99FAFC1C0E905DA6 /* Pods-ATPagerView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ATPagerView_Example-frameworks.sh"; sourceTree = "<group>"; };
 		15CDA656D329C8D8D875B83FD0E7B1DB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1841B086BAC3075F06EBEE1E17CF7036 /* Pods_ATPagerView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ATPagerView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		19483DCE20D0C07D00BEC768 /* ATPagerContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATPagerContentView.swift; sourceTree = "<group>"; };
-		19483DD020D0C35F00BEC768 /* ATCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
-		196CD30320CFEA36002BA51E /* ATTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATTitleView.swift; sourceTree = "<group>"; };
-		196CD30420CFEA36002BA51E /* ATPagerStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATPagerStyle.swift; sourceTree = "<group>"; };
+		19483DD220D0CE4900BEC768 /* ATPagerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ATPagerView.swift; path = ATPagerView/Classes/PagerView/ATPagerView.swift; sourceTree = "<group>"; };
+		1952FBFC40C36A389A67D7C20B34BD11 /* ATPagerView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ATPagerView.modulemap; sourceTree = "<group>"; };
 		2D1847E64012CC9DC7C0FCE512FBEF4A /* Pods-ATPagerView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ATPagerView_Example-dummy.m"; sourceTree = "<group>"; };
-		3D37DDC081B9219E4B6DF4F5B9A42583 /* ATPagerView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ATPagerView-prefix.pch"; sourceTree = "<group>"; };
+		37D2A188F93B59633DD86D0C3874D3B5 /* ATPagerView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = ATPagerView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		43FB5EFDC8587B08BBD0E8E08F1D9A8F /* ATPagerView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ATPagerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		462C5ADCB4BB3021E121C6114D3DA7D8 /* Pods-ATPagerView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ATPagerView_Tests-resources.sh"; sourceTree = "<group>"; };
 		4C4CA3E34D0111FC28DA71E40F7D55A9 /* Pods-ATPagerView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ATPagerView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		59EBBA2FBDF1132F1A6F30BE118047CA /* ATPagerView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ATPagerView-dummy.m"; sourceTree = "<group>"; };
+		4D9F592FCB21735F87616E9AA516F5BE /* ATPagerContentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ATPagerContentView.swift; path = ATPagerView/Classes/PagerView/ATPagerContentView.swift; sourceTree = "<group>"; };
+		5A0CA54F16AE2A3C5C5202D4EFCF244C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5EFC37FA98DB8D9084FE6D54129F6DA6 /* Pods-ATPagerView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ATPagerView_Example.modulemap"; sourceTree = "<group>"; };
-		5FA0A727AD5E88F2EC1C1EA5FEE932B1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		797C2BC7C319C629B75A3125F663A0BA /* Pods-ATPagerView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ATPagerView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7BB0C27BC81FE552E85F4B454AAFC8F7 /* Pods-ATPagerView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ATPagerView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		80F5E7D0F764072C82397C5B01FD7797 /* Pods-ATPagerView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ATPagerView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		84CBBE584AB240C04020898910E34521 /* ATTitleView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ATTitleView.swift; path = ATPagerView/Classes/PagerView/ATTitleView.swift; sourceTree = "<group>"; };
 		8B01B5779EC4D7FDB07B402313A53C8B /* Pods-ATPagerView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ATPagerView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		912A5C8C2B4D7EB4D766FF9D3F8141FA /* ATPagerView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ATPagerView.modulemap; sourceTree = "<group>"; };
-		91AC163F0551E416C23CF3E18B3B749D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93588479A2B479DAB3041822EF326A85 /* Pods-ATPagerView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ATPagerView_Tests-umbrella.h"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9405C9F7665CC98D1989A0EE2461325A /* ATPagerView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ATPagerView-umbrella.h"; sourceTree = "<group>"; };
 		9AE3B22DD57EBDFF51EAC1B8DC8CE978 /* Pods-ATPagerView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ATPagerView_Tests-dummy.m"; sourceTree = "<group>"; };
+		A3B16747EB23409BDEAC946F47DDD727 /* ATCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ATCollectionViewFlowLayout.swift; path = ATPagerView/Classes/PagerView/ATCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
 		A3BC27F3FA110C45CFE24C3BCCDA294F /* Pods_ATPagerView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ATPagerView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4DB9C82356A4BAFB2A7FA2863D0E03A /* Pods-ATPagerView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ATPagerView_Example-umbrella.h"; sourceTree = "<group>"; };
 		B6AC8B57280E20C01C4B4158A27BD881 /* Pods-ATPagerView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ATPagerView_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		BF41823375C652F6C69BDCD4DB9CF505 /* ATPagerView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ATPagerView.xcconfig; sourceTree = "<group>"; };
+		B852682F7D20F637453E047615D5B357 /* ATPagerView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ATPagerView-dummy.m"; sourceTree = "<group>"; };
 		C12511BE7BA5A8D9207CC29057D1FB24 /* Pods-ATPagerView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ATPagerView_Example-resources.sh"; sourceTree = "<group>"; };
 		CC237122A42387B3E3E5BC47B601A754 /* Pods-ATPagerView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ATPagerView_Tests.modulemap"; sourceTree = "<group>"; };
-		D167DF6F874E23B88155DC70C0A28396 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		D294D3D5BCC4D5232BFBDD7254EB676D /* ATPagerView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ATPagerView.xcconfig; sourceTree = "<group>"; };
+		D85344EE8C0485B4FD20520940DCAFA8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		DC1B8CC4FF8A875E776A853FC8F05C66 /* Pods-ATPagerView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ATPagerView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		DFE30F3903B0170650FC22E8C8BEA8B9 /* Pods-ATPagerView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ATPagerView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		E75E6775FA8DBC37F350C89FB637B53E /* ATPagerView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = ATPagerView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E02967C7A25331F3135DB83B1EBC9254 /* ATPagerStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ATPagerStyle.swift; path = ATPagerView/Classes/PagerView/ATPagerStyle.swift; sourceTree = "<group>"; };
 		E7F9769E27327EAC0105E71324E80EE8 /* Pods-ATPagerView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ATPagerView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F9D9B3CB7630F25D14E43ED24306B326 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FCBDB2DF31CE67ABAE80B5A8A6C200D0 /* ATPagerView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ATPagerView-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,14 +91,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AC8CA08490296B355FC81C8982930E73 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				22F38657238239E7613E3BB81EBE9A09 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B6A534B6084C0D901837E23959A9AC86 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -105,29 +99,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C116AA925D5100BDD32DD7B5BF63C423 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F15A69EC126781515ED57951A7EA24E0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		09D8F0ACABAD9451ED2B0D0F5E0BCBF2 /* Pod */ = {
+		030F5B0192EEF0C22D8349AA02B31A36 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				E75E6775FA8DBC37F350C89FB637B53E /* ATPagerView.podspec */,
-				D167DF6F874E23B88155DC70C0A28396 /* LICENSE */,
-				5FA0A727AD5E88F2EC1C1EA5FEE932B1 /* README.md */,
+				1952FBFC40C36A389A67D7C20B34BD11 /* ATPagerView.modulemap */,
+				D294D3D5BCC4D5232BFBDD7254EB676D /* ATPagerView.xcconfig */,
+				B852682F7D20F637453E047615D5B357 /* ATPagerView-dummy.m */,
+				FCBDB2DF31CE67ABAE80B5A8A6C200D0 /* ATPagerView-prefix.pch */,
+				0B2F6E041C2BA5FE85DF23DD26F4F84C /* ATPagerView-umbrella.h */,
+				5A0CA54F16AE2A3C5C5202D4EFCF244C /* Info.plist */,
 			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		196CD30220CFEA36002BA51E /* PagerView */ = {
-			isa = PBXGroup;
-			children = (
-				196CD30320CFEA36002BA51E /* ATTitleView.swift */,
-				196CD30420CFEA36002BA51E /* ATPagerStyle.swift */,
-				19483DD020D0C35F00BEC768 /* ATCollectionViewFlowLayout.swift */,
-				19483DCE20D0C07D00BEC768 /* ATPagerContentView.swift */,
-			);
-			name = PagerView;
-			path = ATPagerView/Classes/PagerView;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ATPagerView";
 			sourceTree = "<group>";
 		};
 		3836D2F5EF4A2F579D6771D527FC0754 /* Pods-ATPagerView_Tests */ = {
@@ -175,46 +169,36 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		763A7446CAB966BDD0AFEB09F64FB9AC /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				912A5C8C2B4D7EB4D766FF9D3F8141FA /* ATPagerView.modulemap */,
-				BF41823375C652F6C69BDCD4DB9CF505 /* ATPagerView.xcconfig */,
-				59EBBA2FBDF1132F1A6F30BE118047CA /* ATPagerView-dummy.m */,
-				3D37DDC081B9219E4B6DF4F5B9A42583 /* ATPagerView-prefix.pch */,
-				9405C9F7665CC98D1989A0EE2461325A /* ATPagerView-umbrella.h */,
-				91AC163F0551E416C23CF3E18B3B749D /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ATPagerView";
-			sourceTree = "<group>";
-		};
-		76E6EA098640F13B89E9A5F100F4BE29 /* ATPagerView */ = {
-			isa = PBXGroup;
-			children = (
-				196CD30220CFEA36002BA51E /* PagerView */,
-				09D8F0ACABAD9451ED2B0D0F5E0BCBF2 /* Pod */,
-				763A7446CAB966BDD0AFEB09F64FB9AC /* Support Files */,
-			);
-			name = ATPagerView;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				8CC66B0359E3BE320AD24125F38E7F9B /* Development Pods */,
+				9676CA767103F88B824814D0F0939CE1 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				6AE6DF62BDDC9F169046B336BCA655C2 /* Products */,
 				4FB99312D866DFF992C06966332E9808 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8CC66B0359E3BE320AD24125F38E7F9B /* Development Pods */ = {
+		94A60E378EDD8FF650F377244813C5D8 /* ATPagerView */ = {
 			isa = PBXGroup;
 			children = (
-				76E6EA098640F13B89E9A5F100F4BE29 /* ATPagerView */,
+				A3B16747EB23409BDEAC946F47DDD727 /* ATCollectionViewFlowLayout.swift */,
+				4D9F592FCB21735F87616E9AA516F5BE /* ATPagerContentView.swift */,
+				E02967C7A25331F3135DB83B1EBC9254 /* ATPagerStyle.swift */,
+				84CBBE584AB240C04020898910E34521 /* ATTitleView.swift */,
+				19483DD220D0CE4900BEC768 /* ATPagerView.swift */,
+				D9BCDB31F7B41BD7DA8A0DB74DF58D58 /* Pod */,
+				030F5B0192EEF0C22D8349AA02B31A36 /* Support Files */,
+			);
+			name = ATPagerView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		9676CA767103F88B824814D0F0939CE1 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				94A60E378EDD8FF650F377244813C5D8 /* ATPagerView */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -225,6 +209,16 @@
 				5E0D919E635D23B70123790B8308F8EF /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9BCDB31F7B41BD7DA8A0DB74DF58D58 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				37D2A188F93B59633DD86D0C3874D3B5 /* ATPagerView.podspec */,
+				D85344EE8C0485B4FD20520940DCAFA8 /* LICENSE */,
+				F9D9B3CB7630F25D14E43ED24306B326 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		D9CB1D2B6936C8B3432721B61964DDDA /* Pods-ATPagerView_Example */ = {
@@ -248,11 +242,11 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		2583B5E0C74E1914E6451D7B48E5D398 /* Headers */ = {
+		141DEAD313A0201A12D970915225B2AA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C2E9738C923B84D6622660A701F9C9A /* ATPagerView-umbrella.h in Headers */,
+				FDF1FC86E4BF372630D7AE13C2CBFC4B /* ATPagerView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +269,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		4AF17FEDAC23DA6A49DEAC053171A96A /* ATPagerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D03A2BBC3964E5E7EE5FF011E0B35AA /* Build configuration list for PBXNativeTarget "ATPagerView" */;
+			buildPhases = (
+				65E347869844EBC0CB1A0745C04134C6 /* Sources */,
+				C116AA925D5100BDD32DD7B5BF63C423 /* Frameworks */,
+				141DEAD313A0201A12D970915225B2AA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ATPagerView;
+			productName = ATPagerView;
+			productReference = 43FB5EFDC8587B08BBD0E8E08F1D9A8F /* ATPagerView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		B0AC9D0F56EDD36EC2F26FFE7A4A6EBF /* Pods-ATPagerView_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 263886606268C737F9AE06EDD8419B20 /* Build configuration list for PBXNativeTarget "Pods-ATPagerView_Example" */;
@@ -311,23 +322,6 @@
 			productReference = A3BC27F3FA110C45CFE24C3BCCDA294F /* Pods_ATPagerView_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		CCD1B172C39619842F3D3BC9F147D257 /* ATPagerView */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 840B9EDFF85B98D225277F5BB48BEB89 /* Build configuration list for PBXNativeTarget "ATPagerView" */;
-			buildPhases = (
-				5765F9779C7EFA893D89AC2406A56103 /* Sources */,
-				AC8CA08490296B355FC81C8982930E73 /* Frameworks */,
-				2583B5E0C74E1914E6451D7B48E5D398 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = ATPagerView;
-			productName = ATPagerView;
-			productReference = 43FB5EFDC8587B08BBD0E8E08F1D9A8F /* ATPagerView.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -349,7 +343,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CCD1B172C39619842F3D3BC9F147D257 /* ATPagerView */,
+				4AF17FEDAC23DA6A49DEAC053171A96A /* ATPagerView */,
 				B0AC9D0F56EDD36EC2F26FFE7A4A6EBF /* Pods-ATPagerView_Example */,
 				B1805FED22E0F847B513265B3C0926A1 /* Pods-ATPagerView_Tests */,
 			);
@@ -365,15 +359,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5765F9779C7EFA893D89AC2406A56103 /* Sources */ = {
+		65E347869844EBC0CB1A0745C04134C6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				196CD30520CFEA37002BA51E /* ATTitleView.swift in Sources */,
-				19483DCF20D0C07D00BEC768 /* ATPagerContentView.swift in Sources */,
-				19483DD120D0C35F00BEC768 /* ATCollectionViewFlowLayout.swift in Sources */,
-				196CD30620CFEA37002BA51E /* ATPagerStyle.swift in Sources */,
-				1BD162786147FFDD9B34CC3118751E17 /* ATPagerView-dummy.m in Sources */,
+				657FE7EDC11ED06EB56634FDD6E371C2 /* ATCollectionViewFlowLayout.swift in Sources */,
+				19483DD320D0CE4900BEC768 /* ATPagerView.swift in Sources */,
+				B92D0A195408D04BE0343A21CE278D1D /* ATPagerContentView.swift in Sources */,
+				EA3842978F3D0C72CC7EB99D11AAE2F8 /* ATPagerStyle.swift in Sources */,
+				8A5E4491D1BAB2E6113AAE2564B47B04 /* ATPagerView-dummy.m in Sources */,
+				2478B6296A08FA839E59264ECC1B6737 /* ATTitleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,7 +386,7 @@
 		3BB574FF4573806436F0828C09F45DC5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ATPagerView;
-			target = CCD1B172C39619842F3D3BC9F147D257 /* ATPagerView */;
+			target = 4AF17FEDAC23DA6A49DEAC053171A96A /* ATPagerView */;
 			targetProxy = 1A579AD028C11A9A412C00032FF9D1A2 /* PBXContainerItemProxy */;
 		};
 		ED132B031EBC8A0D8B84E2AC15A68F63 /* PBXTargetDependency */ = {
@@ -403,6 +398,71 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		169E883B8B66B9FF87523D7432763AA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D294D3D5BCC4D5232BFBDD7254EB676D /* ATPagerView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ATPagerView/ATPagerView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ATPagerView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ATPagerView/ATPagerView.modulemap";
+				PRODUCT_MODULE_NAME = ATPagerView;
+				PRODUCT_NAME = ATPagerView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3AE4B1ADDAE813BE0EABE3B6B8EA6629 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D294D3D5BCC4D5232BFBDD7254EB676D /* ATPagerView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ATPagerView/ATPagerView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ATPagerView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ATPagerView/ATPagerView.modulemap";
+				PRODUCT_MODULE_NAME = ATPagerView;
+				PRODUCT_NAME = ATPagerView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		57C1681FD21148F80BBBB0BB254F6A6C /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E7F9769E27327EAC0105E71324E80EE8 /* Pods-ATPagerView_Tests.release.xcconfig */;
@@ -535,39 +595,6 @@
 			};
 			name = Debug;
 		};
-		A89D26DE77E9A823222FC1DBB1C84BE7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BF41823375C652F6C69BDCD4DB9CF505 /* ATPagerView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ATPagerView/ATPagerView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ATPagerView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ATPagerView/ATPagerView.modulemap";
-				PRODUCT_MODULE_NAME = ATPagerView;
-				PRODUCT_NAME = ATPagerView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -661,38 +688,6 @@
 			};
 			name = Release;
 		};
-		E4CA4B688EFE13DB70181E9F6B338E12 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BF41823375C652F6C69BDCD4DB9CF505 /* ATPagerView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ATPagerView/ATPagerView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ATPagerView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ATPagerView/ATPagerView.modulemap";
-				PRODUCT_MODULE_NAME = ATPagerView;
-				PRODUCT_NAME = ATPagerView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		F91BA8504FAE2F0AC92EA32BFAF735F5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DC1B8CC4FF8A875E776A853FC8F05C66 /* Pods-ATPagerView_Tests.debug.xcconfig */;
@@ -756,11 +751,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		840B9EDFF85B98D225277F5BB48BEB89 /* Build configuration list for PBXNativeTarget "ATPagerView" */ = {
+		6D03A2BBC3964E5E7EE5FF011E0B35AA /* Build configuration list for PBXNativeTarget "ATPagerView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E4CA4B688EFE13DB70181E9F6B338E12 /* Debug */,
-				A89D26DE77E9A823222FC1DBB1C84BE7 /* Release */,
+				3AE4B1ADDAE813BE0EABE3B6B8EA6629 /* Debug */,
+				169E883B8B66B9FF87523D7432763AA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

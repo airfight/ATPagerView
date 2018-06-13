@@ -29,9 +29,7 @@ open class ATPagerContentView: UIView {
     public var style: ATPagerStyle
 
     public var childViewControllers : [UIViewController] = []
-    
-    
-    
+        
     /// 初始化后，默认显示的页数
     public var startIndex: Int = 0
     
